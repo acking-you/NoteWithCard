@@ -4,6 +4,7 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   flutter_acrylic
+  isar_flutter_libs
   screen_retriever
   system_theme
   tray_manager

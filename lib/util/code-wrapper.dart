@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -28,19 +29,20 @@ class _PreWrapperState extends State<CodeWrapperWidget> {
       children: [
         widget.child,
         Align(
+          alignment: Alignment.topRight,
           child: Container(
             padding: const EdgeInsets.all(16.0),
             child: InkWell(
               child: AnimatedSwitcher(
+                duration: const Duration(milliseconds: 200),
                 child: _switchWidget,
-                duration: Duration(milliseconds: 200),
               ),
               onTap: () async {
                 if (hasCopied) return;
                 await Clipboard.setData(ClipboardData(text: widget.text));
                 _switchWidget = Icon(Icons.check, key: UniqueKey());
                 refresh();
-                Future.delayed(Duration(seconds: 2), () {
+                Future.delayed(const Duration(seconds: 2), () {
                   hasCopied = false;
                   _switchWidget = Icon(Icons.copy_rounded, key: UniqueKey());
                   refresh();
@@ -48,7 +50,6 @@ class _PreWrapperState extends State<CodeWrapperWidget> {
               },
             ),
           ),
-          alignment: Alignment.topRight,
         )
       ],
     );
