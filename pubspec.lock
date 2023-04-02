@@ -303,14 +303,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.1"
-  flutter_highlight:
-    dependency: transitive
-    description:
-      name: flutter_highlight
-      sha256: "7b96333867aa07e122e245c033b8ad622e4e3a42a1a2372cbb098a2541d8782c"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "0.7.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -415,14 +407,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.2.0"
-  highlight:
-    dependency: transitive
-    description:
-      name: highlight
-      sha256: "5353a83ffe3e3eca7df0abfb72dcf3fa66cc56b953728e7113ad4ad88497cf21"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "0.7.0"
   http:
     dependency: "direct main"
     description:
@@ -543,14 +527,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.2"
-  markdown:
-    dependency: transitive
-    description:
-      name: markdown
-      sha256: c2b81e184067b41d0264d514f7cdaa2c02d38511e39d6521a1ccc238f6d7b3f2
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "6.0.1"
   markdown_editable_textinput:
     dependency: "direct main"
     description:
@@ -575,14 +551,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.5.0"
-  markdown_widget:
-    dependency: "direct main"
-    description:
-      name: markdown_widget
-      sha256: "8101f53616b653b2bd944690f5ef5649da477e76324c3c0117a8d005529e0a7e"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "2.0.0+1"
   matcher:
     dependency: transitive
     description:
@@ -735,14 +703,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.3.0"
-  scroll_to_index:
-    dependency: transitive
-    description:
-      name: scroll_to_index
-      sha256: b707546e7500d9f070d63e5acf74fd437ec7eeeb68d3412ef7b0afada0b4f176
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "3.0.1"
   shelf:
     dependency: transitive
     description:
@@ -988,14 +948,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.4"
-  visibility_detector:
-    dependency: transitive
-    description:
-      name: visibility_detector
-      sha256: "15c54a459ec2c17b4705450483f3d5a2858e733aee893dcee9d75fd04814940d"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "0.3.3"
   watcher:
     dependency: transitive
     description:
