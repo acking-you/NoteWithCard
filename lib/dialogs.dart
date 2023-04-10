@@ -9,7 +9,6 @@ import 'package:flutter_prism/flutter_prism.dart';
 import 'package:isar/isar.dart';
 import 'package:markdown_toolbar/markdown_toolbar.dart';
 import 'package:markdown_viewer/markdown_viewer.dart';
-import 'package:markdown_widget/markdown_widget.dart';
 import 'package:note_app/common_widget.dart';
 import 'package:note_app/log.dart';
 import 'package:note_app/models/dto.dart';
@@ -219,7 +218,7 @@ class Dialog {
                               child: Column(
                                 children: [
                                   Text(
-                                    'MarkDown预览',
+                                    'MarkDown Preview',
                                     style: getFontStyle(size: 25.0),
                                   ),
                                   const SizedBox(
@@ -229,7 +228,8 @@ class Dialog {
                                     builder:
                                         (context, CommonData value, child) {
                                       return MyMarkdownView(
-                                          text: value.markdownTxt);
+                                        text: value.markdownTxt,
+                                      );
                                     },
                                   ),
                                 ],
@@ -643,6 +643,7 @@ class MyMarkdownView extends StatelessWidget {
   final _langSet = {
     "c",
     "cpp",
+    "cmake",
     "java",
     "cs",
     "go",
