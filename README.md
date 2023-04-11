@@ -9,7 +9,7 @@
 * 🔥跨全平台,由于使用flutter进行开发,客户端代码是跨全平台的(但是目前我本地环境只有windows,所以只编译了Windows).
 > 随想随记的卡片式笔记分类,作为详细笔记记录的中间层,不替代任何现有的笔记软件.
 ## 如何使用
-[视频教程]()
+[视频教程](https://www.bilibili.com/video/BV1n54y1F7v4/)
 1. 请到[release](https://github.com/ACking-you/NoteWithCard/releases)页面下载对应的软件压缩包,然后解压到某个位置.(暂时只打包了Windows,如果有需求后续可以打包其他平台).
 2. 解压后点开 `note_app.exe` 便可使用该软件.
 3. 下面是在对应书本添加卡片笔记的使用示例:
